@@ -141,6 +141,7 @@ Color? parseColor(String? colorString) {
 
 // https://www.w3.org/TR/SVG11/types.html#ColorKeywords
 const Map<String, Color> _namedColors = <String, Color>{
+  'currentColor':Color.fromARGB(255, 0, 0, 0),
   'aliceblue': Color.fromARGB(255, 240, 248, 255),
   'antiquewhite': Color.fromARGB(255, 250, 235, 215),
   'aqua': Color.fromARGB(255, 0, 255, 255),
